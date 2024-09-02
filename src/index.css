@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.manrope-bold {
+    font-family: "Manrope";
+    font-weight: 800;
+}
+
+.manrope {
+    font-family: "Manrope";
+    font-weight: 600;
+}
+
+button:hover {
+    transition: all 0.4s ease-out;
+    box-shadow: 2px 2px 35px #51ffad;
+}
